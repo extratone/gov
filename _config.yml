@@ -1,13 +1,24 @@
 # global settings
-title: "GitHub and Government"
-description: "GitHub helps government build software better, together"
+title: "Extratone Empiret"
+description: "I stole the government github pages site lmao"
 permalink: "/stories/:title"
-url: https://government.github.com
+url: https://extratone.github.io/gov/
 relative_permalinks: false
 analytics_account: "UA-3769691-28"
 
 # build settings
-exclude: ["script", "vendor", "bower.json", "Gemfile", "Gemfile.lock", "Rakefile", "readme.md", "package.json", "node_modules"]
+exclude:
+  [
+    "script",
+    "vendor",
+    "bower.json",
+    "Gemfile",
+    "Gemfile.lock",
+    "Rakefile",
+    "readme.md",
+    "package.json",
+    "node_modules",
+  ]
 markdown: kramdown
 plugins:
   - jekyll-avatar
